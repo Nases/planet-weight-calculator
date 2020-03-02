@@ -2,7 +2,7 @@ import React from 'react'
 
 export default ({ name, desc, surfaceGravity, img }) => {
   return (
-    <div className="px-20 py-16">
+    <div className="px-10 py-8">
       <div className="w-64">
         <img src={img} alt={name} />
         <h2 className="text-2xl text-gray-200">
