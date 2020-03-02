@@ -21,10 +21,10 @@ export default ({ name, desc, surfaceGravityMultiplier, img, NASALink, weightInp
           &nbsp;
           &#8594;
           &nbsp;
-          <input className="bg-transparent text-blue-300 inline w-10" type="text" value={weight} disabled />
+          <input className="bg-transparent text-blue-300 inline w-12" type="text" value={weight} disabled />
           &nbsp;
-          pounds
-          </h2>
+          <span className="text-xl">pounds</span>
+        </h2>
         <p className="text-gray-600">{desc}</p>
       </div>
     </div>
