@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "save": "git add . && git commit -m '🌌' && git push -u origin master"
+    "save": "git add . && git commit -m '🌎' && git push -u origin master"
   },
   "eslintConfig": {
     "extends": "react-app"
