@@ -22,7 +22,7 @@ function App() {
         &nbsp;
         <p className="text-gray-300 inline text-3xl">pounds</p>
       </div>
-      <div className="grid grid-cols-4">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2">
         {planets.map(value => (
           <Planet
             name={value.name}
