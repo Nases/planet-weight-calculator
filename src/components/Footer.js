@@ -11,6 +11,10 @@ export default () => {
       &nbsp;
       |
       &nbsp;
+        <a className="hover:text-white" href="https://solarsystem.nasa.gov/planets/overview/" target="_blank" rel="noopener noreferrer">NASA</a>
+      &nbsp;
+      |
+      &nbsp;
         <a className="hover:text-white" href="https://github.com/Nases/planet-weight-calculator" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
     </footer>
   )
