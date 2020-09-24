@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf node_modules package-lock.json build && react-scripts build",
+    "build": "npm cache clean --force && rm -rf node_modules package-lock.json build && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "save": "git add . && git commit -m '🌎' && git push -u origin master"
