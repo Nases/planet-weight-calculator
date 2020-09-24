@@ -20,7 +20,7 @@ function App() {
         <p className="text-gray-300 inline text-3xl">Enter your weight: </p>
         <input className="w-16 text-3xl bg-transparent text-blue-300" type="text" onChange={weightChange} value={weightInput} />
         &nbsp;
-        <p className="text-gray-300 inline text-3xl">pounds</p>
+        <p className="text-gray-300 inline text-3xl">lb</p>
       </div>
       <div className="grid lg:grid-cols-4 md:grid-cols-2">
         {planets.map(value => (
