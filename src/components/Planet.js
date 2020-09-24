@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-export default ({ name, desc, surfaceGravityMultiplier, img, NASALink, weightInput }) => {
+export default ({ name, desc, surfaceGravityMultiplier, img, NASALink, weightInput, weightType }) => {
 
   const [weight, setWeight] = useState(1)
 
@@ -23,7 +23,7 @@ export default ({ name, desc, surfaceGravityMultiplier, img, NASALink, weightInp
           &nbsp;
           <input className="bg-transparent text-blue-300 inline w-12" type="text" value={weight} disabled />
           &nbsp;
-          <span className="text-xl">lb</span>
+          <span className="text-xl">{weightType}</span>
         </h2>
         <p className="text-gray-600">{desc}</p>
       </div>
